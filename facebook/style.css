@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;}
+*::before,*::after,*{ box-sizing:content-box;}
+ul,ol{ list-style: none;}
+a { color: inherit; text-decoration: none;}
+.clearfix { clear: both; }
+
+header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    background-color: #4E6DA9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logowrapping{ height: 30px; width: 400px; border: 1px solid red; }
+.logo{display: inline;}
+
+.userWrappe .userline li{ float: left; margin-right: 20px; color:#ccc;}
+.userWrappe .userline li:hover{color:#fff;}
+.mainContent{
+    display: flex;
+    justify-content:center;
+}
+main{
+    width: 850px;
+    height: 100vh;
+    border: 1px solid red;
+
+}
+aside{
+    width: 100px;
+    height: 200px;
+    border: 1px solid red;
+}
