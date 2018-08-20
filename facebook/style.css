@@ -3,7 +3,9 @@
 ul,ol{ list-style: none;}
 a { color: inherit; text-decoration: none;}
 .clearfix { clear: both; }
-
+body{
+    background-color: #EBEDF4;
+}
 header{
     width: 100%;
     height: 50px;
@@ -16,17 +18,143 @@ header{
 .logowrapping{ height: 30px; width: 400px; border: 1px solid red; }
 .logo{display: inline;}
 
-.userWrappe .userline li{ float: left; margin-right: 20px; color:#ccc;}
-.userWrappe .userline li:hover{color:#fff;}
+.userWrappe .userline li,
+.mainContent .user-msg-btn li{ float: left;  margin-right: 20px;  color:#ccc;}
+.userWrappe .userline li:hover,
+.mainContent .user-msg-btn li:hover{color:#fff;}
 .mainContent{
     display: flex;
     justify-content:center;
 }
 main{
     width: 850px;
-    height: 100vh;
+    
     border: 1px solid red;
 
+}
+.banner{
+    height: 370px;
+    border: 1px solid red;
+    position: relative;
+}
+.banner .user-background-image{
+    height: 315px;
+    border: 1px solid green;
+    background-color: #FF756E;
+}
+.banner .user-photo{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #FAA755;
+    border: 1px solid red;
+}
+.banner p{
+    /* margin-left: 130px; */
+    position: absolute;
+    left: 130px;
+    bottom: 80px;
+    display: inline;
+    border: 1px solid red;
+}
+.banner .keyword{
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+    width: 330px;
+    height: 25px;
+    border: 1px solid red;
+}
+main .content{
+    /* height: 100vh; */
+    border: 1px solid red;
+    display: flex;
+
+}
+main .content .content-left{
+    border: 1px solid red;
+    width: 280px;
+    /* height: 100vh; */
+    margin-top: 10px;
+    
+
+}
+main .content .content-right{
+    margin-left: 10px;
+    border: 1px solid red;
+    width: 560px;
+    height: 100vh;
+    margin-top: 10px;
+}
+main .content .content-left .messagelist{
+    /* padding-left: 5px; */
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    border: 1px solid gold;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.content-left .messagelist .user-small-photo{
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+.content-left .messagelist p{
+    
+    flex-basis: 220px;
+    display: inline-block;
+    border: 1px solid red;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.content-left .messagelist .zan-warpping{
+   
+    align-self: flex-end;
+    width: 100%;
+    background-color: #FBFBFB;
+}
+.content-left .messagelist .zan-up{
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    border:1px solid red;
+    display: inline-block;
+}
+.content-left .messagelist span{
+    margin-left: 2px;
+}
+.content-right .art-message{
+    /* height: 100px; */
+    border:1px seagreen solid;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+}
+.content-right .art-message span{
+    background-color: #F7F8FB;
+    display: block;
+    padding-left: 5px;
+    
+}
+.content-right .art-message .art-content{
+    padding: 2px;
+}
+.content-right .art-message .art-content::after{
+    content:'';
+    width: 100%;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #F7F8FB;
 }
 aside{
     width: 100px;
