@@ -15,8 +15,17 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.logowrapping{ height: 30px; width: 400px;  }
+.logowrapping{ height: 30px; width: 300px; display: flex;  }
 .logo{display: inline;}
+.logowrapping span{
+    margin-left: 20px;
+}
+.logowrapping span input{
+    width: 200px;
+    height: 18px;
+    border-radius: 3px;
+    
+}
 
 .userWrappe .userline li,
 .mainContent .user-msg-btn li{ float: left;  margin-right: 20px;  color:#ccc;}
@@ -155,7 +164,7 @@ main .content .content-left .messagelist{
 }
 aside{
     position: fixed;
-    right: 25px;
+    right: 20px;
     top: 56px;
     margin-left: 10px;
     width: 100px;
