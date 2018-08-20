@@ -9,13 +9,13 @@ body{
 header{
     width: 100%;
     height: 50px;
-    border: 1px solid red;
+    
     background-color: #4E6DA9;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.logowrapping{ height: 30px; width: 400px; border: 1px solid red; }
+.logowrapping{ height: 30px; width: 400px;  }
 .logo{display: inline;}
 
 .userWrappe .userline li,
@@ -29,17 +29,16 @@ header{
 main{
     width: 850px;
     
-    border: 1px solid red;
+    
 
 }
 .banner{
     height: 370px;
-    border: 1px solid red;
+    
     position: relative;
 }
 .banner .user-background-image{
     height: 315px;
-    border: 1px solid green;
     background-color: #FF756E;
 }
 .banner .user-photo{
@@ -49,7 +48,7 @@ main{
     width: 100px;
     height: 100px;
     background-color: #FAA755;
-    border: 1px solid red;
+    
 }
 .banner p{
     /* margin-left: 130px; */
@@ -57,7 +56,7 @@ main{
     left: 130px;
     bottom: 80px;
     display: inline;
-    border: 1px solid red;
+    
 }
 .banner .keyword{
     position: absolute;
@@ -65,16 +64,16 @@ main{
     bottom: 80px;
     width: 330px;
     height: 25px;
-    border: 1px solid red;
+    
 }
 main .content{
     /* height: 100vh; */
-    border: 1px solid red;
+    
     display: flex;
 
 }
 main .content .content-left{
-    border: 1px solid red;
+    
     width: 280px;
     /* height: 100vh; */
     margin-top: 10px;
@@ -83,7 +82,7 @@ main .content .content-left{
 }
 main .content .content-right{
     margin-left: 10px;
-    border: 1px solid red;
+    
     width: 560px;
     height: 100vh;
     margin-top: 10px;
@@ -95,7 +94,6 @@ main .content .content-left .messagelist{
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    border: 1px solid gold;
     background-color: #fff;
     margin-bottom: 10px;
 }
@@ -103,13 +101,13 @@ main .content .content-left .messagelist{
     margin-left: 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid red;
+    background-color: cornflowerblue;
 }
 .content-left .messagelist p{
     
     flex-basis: 220px;
     display: inline-block;
-    border: 1px solid red;
+    
     margin-left: 5px;
     margin-bottom: 20px;
     padding: 3px;
@@ -132,7 +130,6 @@ main .content .content-left .messagelist{
 }
 .content-right .art-message{
     /* height: 100px; */
-    border:1px seagreen solid;
     background-color: #fff;
     position: relative;
     margin-bottom: 10px;
@@ -157,7 +154,25 @@ main .content .content-left .messagelist{
     background-color: #F7F8FB;
 }
 aside{
+    position: fixed;
+    right: 25px;
+    top: 56px;
+    margin-left: 10px;
     width: 100px;
     height: 200px;
-    border: 1px solid red;
+    
+}
+aside ul li{
+    margin-top: 5px;
+    padding-left: 5px;
+    
+    border-left: 4px solid rgb(156, 163, 241); 
+}
+
+aside ul li a{
+    color:rgb(156, 163, 241);
+    
+}
+aside ul li a:hover{
+    color:rgb(75, 97, 138);
 }
