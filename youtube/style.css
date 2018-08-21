@@ -2,6 +2,7 @@
 *::before,*::after,*{box-sizing:content-box;}
 a{color:inherit; text-decoration:none;}
 ul,ol{list-style: none;}
+hr{}
 
 :root{
     --font-size:14px;
@@ -16,7 +17,7 @@ header{
     width: 100%;
     height: 52px;
     display: flex;
-    border: 1px solid red;
+
 }
 .logo-place{
     flex-basis: 0%;
@@ -24,7 +25,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+
 }
 .search-input{
     flex-basis: 0%;
@@ -33,7 +34,7 @@ header{
     justify-content: flex-start;
     align-items: center;
 
-    border: 1px solid red;
+
 }
 .search-input input[type=text]{
     width: 200px;
@@ -51,7 +52,7 @@ header{
 .user-handle{
     flex-basis: 0%;
     flex-grow: 1;
-    border: 1px solid red;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,68 +66,67 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid #FCE8E8;
     background-color: #FCE8E8;
 }
 .main-content{
     display: flex;
     width: 100%;
-    height: 100vh;
-    border: 1px solid powderblue;
+    erblue;
 }
 .main-content aside{
+    border-top:1px solid RGBA(240, 240, 240, 1.00);
     flex-basis: 0%;
    flex-grow: 1;
-    height: 100vh;
-    border: 1px solid red;
+
 }
-.main-content aside .hot-voide ul{
-    padding: 40px;
+.main-content aside .hot-voide ul,
+.main-wrapper .play-content .play-aside-content .recommend-voide ul{
+    padding: 20px;
 }
-.main-content aside .hot-voide ul li{
+.main-content aside .hot-voide ul li,
+.main-wrapper .play-content .play-aside-content .recommend-voide ul li{
     margin-bottom: 10px;
     border-left: 2px solid red;
     padding-left: 8px;
 }
-.main-content aside .hot-voide ul li a{
+.main-content aside .hot-voide ul li a,
+.main-wrapper .play-content .play-aside-content .recommend-voide ul li a{
     color:#5C5C5C;
 }
-.main-content aside .hot-voide ul li a:hover{
+.main-content aside .hot-voide ul li a:hover,
+.main-wrapper .play-content .play-aside-content .recommend-voide ul li a:hover{
     color:#cccccc;
 }
 main{
     flex-basis: 0%;
-    border: 1px solid green;
+
     flex-grow: 4;
-    height: 100vh;
     background-color: #F0F0F0;
 
 }
 main .main-wrapper{
     /*width: 1140px;*/
-    height: 100vh;
     margin-left:60px;
     margin-right: 60px;
-    border: 1px solid red;
+
 }
 .main-wrapper .user-home-page{
     height: 300px;
-    border: 1px solid red;
+
 }
 .main-wrapper .user-home-page .user-bg{
     height: 200px;
-    border: 1px solid red;
+
     background-color: #FF756D;
 }.main-wrapper .user-home-page .user-bg .user-photo{
     width: 100px;
      height: 100px;
-     border: 1px solid royalblue;
      background-color: #E4DC5E;
     margin-left: 10px;
  }
 .main-wrapper .user-home-page .user-subscibe{
     height: 100px;
-    border: 1px solid red;
+
     position: relative;
     background-color: #fff;
 }
@@ -163,7 +163,6 @@ main .main-wrapper{
     flex-grow: 4;
 
     margin-right: 5px;
-    border: 1px solid pink;
 }
 .main-wrapper .play-content .play-main-content .play-voide-lists{
     display: flex;
@@ -178,8 +177,8 @@ main .main-wrapper{
     flex-basis:0%;
     flex-grow: 1.5;
     background-color: #95DF7D;
-    /*height: 200px;*/
-    border: 1px solid red;
+    height: 200px;
+
 }
 .main-wrapper .play-content .play-main-content .play-voide-lists .play-voide-intro{
     flex-basis:0%;
@@ -189,7 +188,7 @@ main .main-wrapper{
     padding-left: 5px;
     padding-top:5px;
     padding-right: 5px;
-    border: 1px solid red;
+
 }
 .main-wrapper .play-content .play-main-content .play-voide-lists .play-voide-intro span{
     display: block;
@@ -200,10 +199,15 @@ main .main-wrapper{
 }
 .main-wrapper .play-content .play-main-content  .play-voide-lists .play-voide-intro p{
     color: #5C5C5C;
+    font-size: 12px;
 }
 .main-wrapper .play-content .play-aside-content{
 
     flex-grow:1;
-    height: 200px;
-    border: 1px solid chartreuse;
+    /*height: 200px;*/
+
+    background-color: #fff;
+}
+.main-wrapper .play-content .play-aside-content .recommend-voide{
+
 }
