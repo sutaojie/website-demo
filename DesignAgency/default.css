@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+*::before, *::after, * {
+    box-sizing: content-box; }
+
+ul, ol {
+    list-style: none; }
+
+a {
+    color: inherit;
+    text-decoration: none; }
+
+.clearfix {
+    clear: both; }
+
+body {
+    background-color: #ffffff; }
+
+.page-1 {
+    display: flex;
+    flex-wrap: wrap; }
+.page-1 .logo-text {
+    padding: 3em 0 3em 10em;
+    flex-basis: 100%;
+    color: #6646C5; }
+.page-1 .text-content {
+    margin-left: 100%;
+    transform: translateX(-100%);
+    flex: 0 0 40%;
+    background-color: #5834C0;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 20%; }
+.page-1 .text-content .text-wrapper {
+    color: #fff;
+    padding-left: 6em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    font-size: 12px; }
+.page-1 .text-content .text-wrapper p {
+    margin-top: 3em;
+    width: 10em; }
+.page-1 .introduce-1 {
+    flex: 0 0 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+    transform: translateX(-10%); }
+.page-1 .introduce-1 .introduce-wrapper {
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+.page-1 .introduce-1 .introduce-wrapper span {
+    color: #241C3C;
+    font-size: 24px; }
+.page-1 .introduce-1 .introduce-wrapper p {
+    font-size: 12px;
+    margin-top: 3em; }
+.page-1 .fill-space {
+    flex: 0 0 60%; }
+.page-1 .mini-card {
+    margin-top: 10%;
+    flex: 0 0 100%; }
+.page-1 .mini-card .card-wrapper {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%; }
+.page-1 .mini-card .card-wrapper .card-1, .page-1 .mini-card .card-wrapper .card-2, .page-1 .mini-card .card-wrapper .card-3 {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5%;
+    box-shadow: 0 0 2px RGBA(184, 182, 192, 0.5); }
+.page-1 .mini-card .card-wrapper .card-1 .icon-wrapper, .page-1 .mini-card .card-wrapper .card-2 .icon-wrapper, .page-1 .mini-card .card-wrapper .card-3 .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 100%; }
+.page-1 .mini-card .card-wrapper .card-1 .icon-wrapper .card-icon, .page-1 .mini-card .card-wrapper .card-2 .icon-wrapper .card-icon, .page-1 .mini-card .card-wrapper .card-3 .icon-wrapper .card-icon {
+    margin-top: 2em;
+    margin-bottom: .2em;
+    width: 40px;
+    height: 40px;
+    background-color: #FF756D; }
+.page-1 .mini-card .card-wrapper .card-1 .card-title, .page-1 .mini-card .card-wrapper .card-2 .card-title, .page-1 .mini-card .card-wrapper .card-3 .card-title {
+    font-size: 16px;
+    font-weight: 800; }
+.page-1 .mini-card .card-wrapper .card-1 p, .page-1 .mini-card .card-wrapper .card-2 p, .page-1 .mini-card .card-wrapper .card-3 p {
+    padding: 1em;
+    font-size: 12px; }
+.page-1 .about-us {
+    flex: 0 0 40%;
+    margin-top: 15%;
+    background-color: #5834C0;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 20%; }
+.page-1 .about-us .about-wrapper {
+    color: #fff;
+    padding-left: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    font-size: 12px; }
+.page-1 .about-us .about-wrapper .about-content span {
+    font-size: 34px; }
+.page-1 .about-us .about-wrapper .about-content p {
+    margin-top: 3em;
+    margin-right: 2em; }
+.page-1 .supper-us {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+.page-1 .supper-us .supper-title {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: RGBA(118, 114, 133, 1); }
+.page-1 .supper-us .supper-title strong {
+    color: #241C3C; }
+.page-1 .supper-us .brands-icon {
+    margin-top: 5%;
+    flex-basis: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly; }
+.page-1 .supper-us .brands-icon .brand-1, .page-1 .supper-us .brands-icon .brand-2, .page-1 .supper-us .brands-icon .brand-3, .page-1 .supper-us .brands-icon .brand-4 {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 2px RGBA(184, 182, 192, 0.5);
+    border-radius: 5%;
+    background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
